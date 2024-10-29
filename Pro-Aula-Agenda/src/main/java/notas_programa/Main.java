@@ -16,16 +16,17 @@ public class Main {
 
         while (bucle == 0) {
 
-            System.out.println("------------------");
-            System.out.println("Gestor De Tareas");
-            System.out.println("------------------");
-            System.out.println("¿Que desea hacer?");
-            System.out.println("");
-            System.out.println("1. Agregar tarea");
-            System.out.println("2. Ver tareas");
-            System.out.println("3. Agregar materias");
-            System.out.println("4. ver materias");
-            System.out.println("0. Salir");
+            System.out.println("""
+                    ------------------
+                    Gestor De Tareas
+                    ------------------
+                    ¿Que desea hacer?
+                    1. Agregar tarea
+                    2. Ver tareas
+                    3. Agregar materias
+                    4. ver materias
+                    0. Salir
+                    """);
             int opcion = sc.nextInt();
             sc.nextLine();  // Limpiar el buffer
 
